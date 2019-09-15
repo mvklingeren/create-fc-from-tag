@@ -2,7 +2,8 @@
   "name": "create-react-tsx-fc",
   "displayName": "create-react-tsx-fc",
   "description": "Create .tsx for new <MyComponent/>",
-  "version": "0.0.1",
+  "publisher": "mvkdev",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.36.0"
   },
