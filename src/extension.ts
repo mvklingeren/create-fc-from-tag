@@ -56,8 +56,8 @@ export function activate(context: vscode.ExtensionContext) {
 
       fs.writeFileSync(
         filePath,
-        `import react, { ReactElement } from "react"\n\nconst ${highlight} = () : 
-		ReactElement => {\n\treturn <></>;\n}\n\nexport default ${highlight}`,
+        `import React from "react"\n\nconst ${highlight} : React.FC= () : 
+         => {\n\treturn <></>;\n}\n\nexport default ${highlight}`,
         "utf8"
       );
 
